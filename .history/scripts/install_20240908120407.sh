@@ -5,8 +5,6 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-
-
 PACKAGE_NAME=$1
 
 echo "Installing package: $PACKAGE_NAME"
